@@ -16,7 +16,7 @@ public class Student {
         this.averageScore = averageScore;
     }
 
-    public String getname() {
+    public String getName() {
         return name;
     }
 

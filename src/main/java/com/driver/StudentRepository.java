@@ -13,7 +13,7 @@ public class StudentRepository {
     HashMap<String, List<String>> teacherStudentHashMap=new HashMap<>();
 
     public void addStudent(Student student){
-        String studentName=student.getname();
+        String studentName=student.getName();
         studentHashMap.put(studentName, student);
     }
     public void addTeacher(Teacher teacher){
