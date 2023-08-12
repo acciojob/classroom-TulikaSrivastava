@@ -8,16 +8,6 @@ public class Teacher {
 
     private int age;
 
-    public Teacher() {
-
-    }
-
-    public Teacher(String name, int numberOfStudents, int age) {
-        this.name = name;
-        this.numberOfStudents = numberOfStudents;
-        this.age = age;
-    }
-
     public String getName() {
         return name;
     }
@@ -26,7 +16,7 @@ public class Teacher {
         this.name = name;
     }
 
-    public int numberOfStudents() {
+    public int getNumberOfStudents() {
         return numberOfStudents;
     }
 
@@ -34,11 +24,21 @@ public class Teacher {
         this.numberOfStudents = numberOfStudents;
     }
 
-    public int age() {
+    public int getAge() {
         return age;
     }
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public Teacher(String name, int numberOfStudents, int age) {
+        this.name = name;
+        this.numberOfStudents = numberOfStudents;
+        this.age = age;
+    }
+
+    public Teacher() {
+
     }
 }
